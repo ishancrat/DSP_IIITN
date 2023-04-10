@@ -5,7 +5,7 @@ len2=int(input("enter length of second sequence: "));
 
 lenx=max(len1,len2)
 lenh=min(len1,len2)
-xMatrix=np.zeros((lenx,lenx),dtype=complex)
+xMatrix=np.zeros((lenx,lenx))
 
 print("Enter the longer sequence: ")
 X = [int(i) for i in input().split()]
