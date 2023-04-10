@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Apr  9 17:16:12 2023
-
-@author: ishanb
-"""
-
 import numpy as np
 
 len1=int(input("enter length of first sequence: "));
@@ -13,8 +5,7 @@ len2=int(input("enter length of second sequence: "));
 
 lenx=max(len1,len2)
 lenh=min(len1,len2)
-
-xMatrix=np.zeros((lenx,lenx))
+xMatrix=np.zeros((lenx,lenx),dtype=complex)
 
 print("Enter the longer sequence: ")
 X = [int(i) for i in input().split()]
